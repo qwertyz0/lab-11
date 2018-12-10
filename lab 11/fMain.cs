@@ -33,7 +33,7 @@ namespace lab_11
             CurrentFigureIndex = FigureCount;
 
             // Створення нового об'єкта - екземпляра класу CCircle     
-            figures[CurrentFigureIndex] = new CFigure(graphics, 200, 200); //тут
+            figures[CurrentFigureIndex] = new CFigure(graphics, 200, 200);
             figures[CurrentFigureIndex].Show();
             FigureCount++;
 
